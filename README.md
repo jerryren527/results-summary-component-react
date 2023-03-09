@@ -25,8 +25,9 @@ Desktop View:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://github.com/jerryren527/results-summary-component-react)
+- Live Site URL: [Link](https://jerryren527.github.io/results-summary-component-react/)
+- Custom Figma File: [Link](https://www.figma.com/file/CoyaiGK65EDfxxG6gBsYqK/results-summary-component?node-id=0%3A1&t=ymMQQHLFnNxsrOfO-1)
 
 ### My process
 
