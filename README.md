@@ -17,11 +17,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 Mobile View:
 
-<img src='public/images/2023-03-08-17-11-20.png' width='300'>
+<img src='./src/assets/images/2023-03-08-17-11-20.png' width='300'>
 
 Desktop View:
 
-<img src='public/images/2023-03-09-10-22-10.png' width='600'>
+<img src='./src/assets/images/2023-03-09-10-22-10.png' width='600'>
 
 ### Links
 
