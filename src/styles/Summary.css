@@ -14,7 +14,7 @@
 }
 
 /* summary-section left side */
-.summary-section-left img {
+.summary-section-left #icon {
   display: inline-block;
   vertical-align: middle;
   margin-right: 13px;
@@ -28,38 +28,38 @@
 }
 
 /* Reaction */
-.reaction {
+.Reaction {
   background-color: #fff6f5;
 }
 
-.reaction > .summary-section-left > p {
+.Reaction > .summary-section-left > p {
   color: #d5747c;
 }
 
 /* Memory */
-.memory {
+.Memory {
   background-color: #f7f3eb;
 }
 
-.memory > .summary-section-left > p {
+.Memory > .summary-section-left > p {
   color: #dab150;
 }
 
 /* Verbal */
-.verbal {
+.Verbal {
   background-color: #ebf3f2;
 }
 
-.verbal > .summary-section-left > p {
+.Verbal > .summary-section-left > p {
   color: #32a586;
 }
 
 /* Visual */
-.visual {
+.Visual {
   background-color: #ececf5;
 }
 
-.visual > .summary-section-left > p {
+.Visual > .summary-section-left > p {
   color: #0d1779;
 }
 
