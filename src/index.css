@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;400;500;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main */
+main {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: center;
+}
+
+/* ============ Styling classes ============ */
+
+/* fainted color elements */
+.fainted {
+  color: #b2adef;
+}
+
+/* bold text elements */
+.bold {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* individual summary score */
+.individual-score {
+  font-weight: 700;
+}
+
+.out-of-100 {
+  font-weight: 400;
+  color: #a19d9a;
+}
+
+/* ============ Responsive design ============ */
+
+/* Desktop screens */
+@media screen and (min-width: 900px) {
+  #absolute-position-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #flex-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

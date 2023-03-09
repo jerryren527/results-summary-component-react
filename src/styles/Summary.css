@@ -1,0 +1,107 @@
+/*  ============ summary ============ */
+.summary {
+  background-color: white;
+}
+.summary-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 28px 17px 28px;
+  padding-left: 17px;
+  padding-right: 13px;
+  font-weight: 400;
+  border-radius: 9px;
+}
+
+/* summary-section left side */
+.summary-section-left img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 13px;
+  margin-top: 19px;
+  margin-bottom: 19px;
+}
+
+.summary-section-left p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Reaction */
+.reaction {
+  background-color: #fff6f5;
+}
+
+.reaction > .summary-section-left > p {
+  color: #d5747c;
+}
+
+/* Memory */
+.memory {
+  background-color: #f7f3eb;
+}
+
+.memory > .summary-section-left > p {
+  color: #dab150;
+}
+
+/* Verbal */
+.verbal {
+  background-color: #ebf3f2;
+}
+
+.verbal > .summary-section-left > p {
+  color: #32a586;
+}
+
+/* Visual */
+.visual {
+  background-color: #ececf5;
+}
+
+.visual > .summary-section-left > p {
+  color: #0d1779;
+}
+
+/* "Summary" */
+.summary > p:nth-child(1) {
+  font-size: 19px;
+  text-align: left;
+  margin-left: 33px;
+  margin-top: 25px;
+  margin-bottom: 23px;
+}
+
+/* Continue button */
+.continue-btn {
+  background-color: #354160;
+  /* height: 59px; */
+  /* width: 328px; */
+  border-radius: 29.5px;
+  margin: 25px 28px 31px 28px;
+  padding: 19px 125px;
+}
+
+.continue-btn p {
+  font-size: 19px;
+  color: white;
+  text-align: center;
+}
+
+/* ============ Responsive design ============ */
+@media screen and (min-width: 900px) {
+  .summary {
+    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.1));
+  }
+  .continue-btn:hover {
+    background: linear-gradient(180deg, #6542ff 0%, #322deb 100%);
+    cursor: pointer;
+  }
+}
+
+/* Screens less than 320px wide */
+@media screen and (max-width: 390px) {
+  .continue-btn {
+    padding: 19px;
+  }
+}
