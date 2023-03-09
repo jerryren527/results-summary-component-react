@@ -69,4 +69,36 @@ root.render(
 
 ---
 
-To add a logo to a React app, put the image inside the _public_ folder. When setting `href` or `src` attributes to a URL, React will start looking for a file from the _public_ folder.
+The public folder in a React application is used to store static assets that are not processed by the build system. The contents of this folder are copied as-is to the root of the build folder when you run npm run build.
+
+Some examples of files that could be included in the public folder are:
+
+- `Favicon.ico`: The icon that appears in the browser tab or bookmark bar.
+
+---
+
+You can import an SVG file (or any image file) as a React component using the import statement:
+
+```js
+import { ReactComponent as ReactionLogo } from "./assets/images/icon-reaction.svg";
+```
+
+Use the imported component:
+
+```js
+function MyComponent() {
+  return (
+    <div>
+      <ReactionLogo />
+    </div>
+  );
+}
+```
+
+---
+
+If you need to add alternative text to a `div` element for accessibility purposes, you can use the `aria-label` attribute.
+
+```js
+<div aria-label="This is alternative text for the div element">This is the content of the div element</div>
+```
