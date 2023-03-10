@@ -2,23 +2,20 @@ import React from "react";
 import "../styles/Summary.css";
 import { SummarySection } from "./SummarySection";
 
-import { ReactComponent as ReactionLogo } from "../assets/images/icon-reaction.svg";
-import { ReactComponent as MemoryLogo } from "../assets/images/icon-memory.svg";
-import { ReactComponent as VerbalLogo } from "../assets/images/icon-verbal.svg";
-import { ReactComponent as VisualLogo } from "../assets/images/icon-visual.svg";
+import ReactionLogo from "../assets/images/icon-reaction.svg";
+import MemoryLogo from "../assets/images/icon-memory.svg";
+import VerbalLogo from "../assets/images/icon-verbal.svg";
+import VisualLogo from "../assets/images/icon-visual.svg";
 
-export const Summary = (props) => {
-  const myProps = props;
-  console.log("🚀 ~ file: Summary.jsx:6 ~ Summary ~ myProps:", myProps);
-
+export const Summary = () => {
   return (
     <div className="summary">
       <p className="bold">Summary</p>
 
-      <SummarySection score={80} icon={<ReactionLogo alt={"Reaction logo"} />} category={"Reaction"} />
-      <SummarySection score={92} icon={<MemoryLogo alt={"Memory logo"} />} category={"Memory"} />
-      <SummarySection score={61} icon={<VerbalLogo alt={"Verbal logo"} />} category={"Verbal"} />
-      <SummarySection score={72} icon={<VisualLogo alt={"Visual logo"} />} category={"Visual"} />
+      <SummarySection score={80} icon={ReactionLogo} category={"Reaction"} />
+      <SummarySection score={92} icon={MemoryLogo} category={"Memory"} />
+      <SummarySection score={61} icon={VerbalLogo} category={"Verbal"} />
+      <SummarySection score={72} icon={VisualLogo} category={"Visual"} />
 
       <div className="continue-btn">
         <p>Continue</p>
