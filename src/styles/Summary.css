@@ -1,6 +1,7 @@
 /*  ============ summary ============ */
 .summary {
   background-color: white;
+  border-radius: 0px 30px 30px 0px;
 }
 .summary-section {
   display: flex;
@@ -14,7 +15,7 @@
 }
 
 /* summary-section left side */
-.summary-section-left #icon {
+.summary-section-left .icon {
   display: inline-block;
   vertical-align: middle;
   margin-right: 13px;
@@ -91,7 +92,7 @@
 /* ============ Responsive design ============ */
 @media screen and (min-width: 900px) {
   .summary {
-    filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.1));
+    /* filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.1)); */
   }
   .continue-btn:hover {
     background: linear-gradient(180deg, #6542ff 0%, #322deb 100%);
